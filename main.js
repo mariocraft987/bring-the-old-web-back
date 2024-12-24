@@ -1,2 +1,2 @@
-console.log("%cWAIT!", "color:yellow;font-size:20pt;");
+console.log("%cWAIT!", "color:gold;font-size:120pt;");
 console.log("This part is only for developers!");
