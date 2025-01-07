@@ -4,6 +4,6 @@ console.log("This part is only for developers! if someone asks you to paste some
 document.getElementById("navbar").innerHTML = `
     <nav>
         <a href="/">Home</a>
-        <a href="/explore">Explore</a>
-        <a href="/donate">Donate</a>
+        <a href="/explore.html">Explore</a>
+        <a href="/donate.html">Donate</a>
     </nav>`;
