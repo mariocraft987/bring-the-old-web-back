@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explore</title>
+    <link rel="shortcut icon" href="/src/img/bbtow_icon.png" type="image/png">
+
+    <link rel="stylesheet" href="https://unpkg.com/xp.css@0.2.6/dist/XP.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+<div id="navbar"></div>
+
+<div class="content">
+
+    <h3>Explore the World Wide Web!</h3>
+
+    <p>Search Something!</p>
+    <input type="text" id="search" placeholder="Search Something!">
+
+</div>
+    
+</body>
+<script>
+let search_list = [
+    "Dogs",
+    "Cats",
+    "Turtles",
+    "Personal Websites",
+    "Technology",
+    "Coding",
+    "MORE TURTLES!!!",
+];
+
+let item = search_list[Math.floor(Math.random()*search_list.length)];
+
+document.getElementById("search").placeholder = item;
+</script>
+<script src="/main.js"></script>
+</html>
