@@ -39,6 +39,6 @@ nav a:hover {
     padding: 0px;
 }
 
-abbr {
+abbr, acronym {
     cursor: help;
 }
