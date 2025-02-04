@@ -34,9 +34,9 @@ let search_list = [
     "MORE TURTLES!!!",
 ];
 
-let item = search_list[Math.floor(Math.random()*search_list.length)];
-
-document.getElementById("search").placeholder = item;
+setInterval(function () {
+    document.getElementById("search").placeholder = search_list[Math.floor(Math.random()*search_list.length)];
+}, 1000);
 </script>
 <script src="/main.js"></script>
 </html>
