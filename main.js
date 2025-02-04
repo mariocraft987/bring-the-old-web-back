@@ -6,4 +6,6 @@ document.getElementById("navbar").innerHTML = `
         <a href="/">Home</a>
         <a href="/explore.html">Explore</a>
         <a href="/donate.html">Donate</a>
+        <a href="/register.html">Donate</a>
+        <a href="#">Webrings (COMING SOON)</a>
     </nav>`;
