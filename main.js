@@ -7,5 +7,6 @@ document.getElementById("navbar").innerHTML = `
         <a href="/explore.html">Explore</a>
         <a href="/donate.html">Donate</a>
         <a href="/register.html">Register</a>
-        <a href="#">Webrings</a>
+        <a style="float:right;" href="#">Webrings</a>
+        <a style="float:right;" href="#">Wiki</a>
     </nav>`;
