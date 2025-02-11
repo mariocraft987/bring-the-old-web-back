@@ -8,6 +8,20 @@ body {
     margin: 0px;
 }
 
+html, body {
+    height: 100%;
+}
+
+.sidebar {
+    float: left;
+    background-color: lightgray;
+    width: 100px;
+    height: 100%;
+    padding: 25px;
+    margin-right: 14px;
+    padding-bottom: 40%;
+}
+
 nav {
     background-color: rgb(185, 185, 185);
     border-color: black;
